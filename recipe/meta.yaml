@@ -41,7 +41,6 @@ test:
 
 about:
   home: http://stoken.sf.net
-  doc_url: https://simplejson.readthedocs.io/
   dev_url: https://github.com/cernekee/stoken
   license: LGPL-2.1-or-later
   license_family: LGPL
