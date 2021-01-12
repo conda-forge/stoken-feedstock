@@ -11,8 +11,6 @@ Summary: RSA SecurID-compatible software token for Linux/UNIX systems
 
 Development: https://github.com/cernekee/stoken
 
-Documentation: https://simplejson.readthedocs.io/
-
 stoken is a tokencode generator compatible with RSA SecurID 128-bit (AES)
 tokens.  The project includes several components:
 
