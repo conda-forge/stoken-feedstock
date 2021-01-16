@@ -19,7 +19,7 @@ gmp:
 libxml2:
 - '2.9'
 nettle:
-- '3.6'
+- '3.7'
 pin_run_as_build:
   cairo:
     max_pin: x.x
