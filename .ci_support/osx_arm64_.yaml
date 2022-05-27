@@ -12,6 +12,8 @@ channel_targets:
 - conda-forge main
 glib:
 - '2'
+gmp:
+- '6'
 libxml2:
 - '2.9'
 macos_machine:
@@ -21,6 +23,8 @@ nettle:
 pin_run_as_build:
   cairo:
     max_pin: x.x
+  gmp:
+    max_pin: x
   libxml2:
     max_pin: x.x
   nettle:
