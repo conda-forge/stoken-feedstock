@@ -5,5 +5,8 @@ set -x
 ./configure --prefix=${PREFIX}
 
 make -j${CPU_COUNT}
-make check
+# can't run checks when cross-compiling
+if [[ $CONDA_BUILD_CROSS_COMPILATION != "1" ]]; then
+  make check
+fi
 make install
