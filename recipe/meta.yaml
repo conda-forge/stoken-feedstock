@@ -25,6 +25,7 @@ requirements:
     - nettle
     - gtk3
     - libxml2
+    - gmp
     - glib    # [osx]
     - cairo   # [osx]
   run:
