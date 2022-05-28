@@ -26,14 +26,14 @@ requirements:
     - gtk3
     - libxml2
     - gmp
-    - glib    # [osx]
-    - cairo   # [osx]
+    - glib
+    - cairo
   run:
     - nettle
     - gtk3
     - libxml2
-    - glib    # [osx]
-    - cairo   # [osx]
+    - glib
+    - cairo
 
 test:
   commands:
