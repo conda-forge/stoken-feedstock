@@ -9,3 +9,5 @@ github:
 test: native_and_emulated
 provider:
   linux_aarch64: azure
+conda_build:
+  pkg_format: '2'
