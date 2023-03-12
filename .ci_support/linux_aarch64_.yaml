@@ -3,9 +3,9 @@ BUILD:
 c_compiler:
 - gcc
 c_compiler_version:
-- '10'
+- '11'
 cairo:
-- '1.16'
+- '1'
 cdt_arch:
 - aarch64
 cdt_name:
@@ -21,17 +21,8 @@ glib:
 gmp:
 - '6'
 libxml2:
-- '2.9'
+- '2.10'
 nettle:
 - '3.8'
-pin_run_as_build:
-  cairo:
-    max_pin: x.x
-  gmp:
-    max_pin: x
-  libxml2:
-    max_pin: x.x
-  nettle:
-    max_pin: x.x
 target_platform:
 - linux-aarch64

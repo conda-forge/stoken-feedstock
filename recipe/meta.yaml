@@ -1,5 +1,5 @@
 {% set name = "stoken" %}
-{% set version = "0.92" %}
+{% set version = "0.93" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/cernekee/stoken/archive/v{{ version }}.tar.gz
-  sha256: 9b9c5e0f09ca14a54454319b64af98a02d0ae1b3eb1122c95e2130736f440cd1
+  sha256: 102e2d112b275efcdc20ef438670e4f24f08870b9072a81fda316efcc38aef9c
 
 build:
-  number: 5
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -45,7 +45,7 @@ about:
   license: LGPL-2.1-or-later
   license_family: LGPL
   license_file: COPYING.LIB
-  summary: 'RSA SecurID-compatible software token for Linux/UNIX systems'
+  summary: RSA SecurID-compatible software token for Linux/UNIX systems
   description: |
     stoken is a tokencode generator compatible with RSA SecurID 128-bit (AES)
     tokens.  The project includes several components:
