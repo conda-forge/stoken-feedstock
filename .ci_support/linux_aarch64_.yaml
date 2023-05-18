@@ -3,7 +3,7 @@ BUILD:
 c_compiler:
 - gcc
 c_compiler_version:
-- '11'
+- '12'
 cairo:
 - '1'
 cdt_arch:
@@ -21,7 +21,7 @@ glib:
 gmp:
 - '6'
 libxml2:
-- '2.10'
+- '2.11'
 nettle:
 - '3.8'
 target_platform:
