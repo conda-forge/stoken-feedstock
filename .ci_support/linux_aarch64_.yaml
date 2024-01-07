@@ -21,7 +21,7 @@ glib:
 gmp:
 - '6'
 libxml2:
-- '2.11'
+- '2.12'
 nettle:
 - '3.9'
 target_platform:
